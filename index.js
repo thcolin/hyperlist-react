@@ -96,8 +96,14 @@ class HyperListReact extends React.Component {
 
 HyperListReact.propTypes = {
   style: PropTypes.object,
-  height: PropTypes.number,
-  itemHeight: PropTypes.number,
+  height: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number
+  ]),
+  itemHeight: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number
+  ]),
   total: PropTypes.number.isRequired,
   reverse: PropTypes.bool,
   generate: PropTypes.func.isRequired
