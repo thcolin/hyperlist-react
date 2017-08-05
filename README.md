@@ -2,7 +2,7 @@
 Simple React wrapper for [tbranyen/hyperlist](https://github.com/tbranyen/hyperlist/), see `examples` folder for complete `html` and `css` example
 
 ## Installation
-Warning, `hyperlist` is a peer dependency
+🚨 `hyperlist` is a peer dependency
 ```bash
 npm i -S hyperlist hyperlist-react
 ```
