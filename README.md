@@ -1,6 +1,9 @@
 # HyperListReact
 Simple React wrapper for [tbranyen/hyperlist](https://github.com/tbranyen/hyperlist/), see `examples` folder for complete `html` and `css` example
 
+## Deprecated
+⚠️ Warning, this library is not longer maintained, see [thcolin/react-virtualist](https://github.com/thcolin/react-virtualist) for alternative
+
 ## Installation
 🚨 `hyperlist` is a peer dependency
 ```bash
